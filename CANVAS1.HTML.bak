@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>MY CANVAS1</title>
+<style>
+#new-canvas {
+background-color:"red";
+border:"3px" solidblack;
+}
+</style>
+</head>
+<body>
+<canvas id="new-canvas" width="300" height="300"></canvas>
+
+<script>
+var c=document.getElementById("new-canvas");
+var jctx=c.getContext("2d");
+jctx.fillStyle="#66CC66";
+jctx.fillRect(10,100,100,750);
+jctx.fillRect(170,100,150,100);
+jctx.fillStyle="#FFFF33";
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<title>My canvas of circle</title>
+<body>
+<Canvas id="can" width="400" height="400"></Canvas>
+<Style type="Text|css">;
+#can{
+background-color:"000FFF";
+border:"3px" cyan;
+}
+</Style>
+<script>
+var c=Documet.GetElementByID("can");
+car actx=c.GetContext("2d");
+actx.beginPath();
+actx.arc(200,200,100,0,2*Math.PI);
+actx.Stroke();
+actx.lineWidth=5;
+actx.StrokeStyle=yellow;
+actx.FillStyle="FF00FF";
+actx.closepath();
+</script>
+</body>
+</html>
+
